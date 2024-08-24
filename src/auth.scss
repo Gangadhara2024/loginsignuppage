@@ -1,0 +1,102 @@
+.navbar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: rgb(228, 212, 212);
+  gap: 20px;
+  position: sticky;
+  top: 0px;
+  padding-right: 100px;
+}
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: 2px;
+  span {
+    color: rgb(212, 57, 57);
+  }
+}
+// .signup-bar {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 60vh;
+//   box-sizing: border-box;
+// }
+.form {
+  background-color: #fdfefe;
+  width: min(360px, 90vw);
+  box-shadow: 2px 2px 5px #ed2020;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 55%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgb(4, 4, 4);
+}
+.link {
+  text-align: center;
+  font-weight: 600;
+  span {
+    color: rgb(211, 119, 13);
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+
+.background-container {
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 92vh;
+    object-fit: cover;
+    display: block;
+  }
+}
+.link1,
+.link2 {
+  span {
+    color: rgb(254, 108, 60);
+    padding: 10px;
+    text-align: center;
+  }
+}
+.dark-container {
+  .form {
+    background-color: rgb(19, 25, 25);
+    box-shadow: none;
+    border: 0.1px solid white;
+    box-shadow: 2px 2px 4px rgb(255, 97, 97);
+    .heading {
+      color: white;
+      span {
+        color: white;
+      }
+    }
+
+    label {
+      color: rgb(202, 207, 210);
+    }
+    b {
+      color: #fbf9f6;
+    }
+    .link {
+      color: rgb(238, 238, 250);
+    }
+  }
+}
