@@ -55,8 +55,8 @@ const Login = ({ auth }) => {
       </Form>
       <p className="link">
         New user create account ?
-        <Link to="/signup">
-          <span>Sign-up here</span>
+        <Link to="/signup" className="signuplink">
+          <span> Sign-up here</span>
         </Link>
       </p>
     </div>

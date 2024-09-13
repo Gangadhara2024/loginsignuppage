@@ -90,7 +90,7 @@ const Signup = ({ auth }) => {
         <p className="link">
           Already have an account ?
           <Link to="/login">
-            <span>Login</span>
+            <span> Login</span>
           </Link>
         </p>
       </Form>

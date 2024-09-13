@@ -19,6 +19,12 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(166, 158, 158);
+  }
 }
 .heading {
   text-align: center;
@@ -28,13 +34,6 @@
     color: rgb(212, 57, 57);
   }
 }
-// .signup-bar {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 60vh;
-//   box-sizing: border-box;
-// }
 .form {
   background-color: #fdfefe;
   width: min(360px, 90vw);
@@ -70,8 +69,9 @@
 }
 .link1,
 .link2 {
+  padding: 10px;
   span {
-    color: rgb(254, 108, 60);
+    color: rgb(4, 3, 2);
     padding: 10px;
     text-align: center;
   }
@@ -88,7 +88,6 @@
         color: white;
       }
     }
-
     label {
       color: rgb(202, 207, 210);
     }
@@ -100,3 +99,15 @@
     }
   }
 }
+.signuplink {
+  text-decoration: none;
+}
+.linkline1 {
+  text-decoration: none;
+  font-weight: 700;
+}
+.linkline2 {
+  text-decoration: none;
+  font-weight: 700;
+}
+
